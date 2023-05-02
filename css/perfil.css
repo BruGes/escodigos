@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header a{
+    text-decoration: none;
+}
+.container-elementos-header{
+    background: #f5f5f5;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 84px;
+}
+.logo-container{
+    text-decoration: none;
+}
+.up-text{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.down-text{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.lista-navegação{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    border-bottom: 2px solid gold;
+    color: gold;
+    transition: 0.8s;
+}
+.cabecalho-link{
+    padding: 20px 20px;
+    text-align: center;
+    margin: 12px;
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 120px;
+    width: 30%;
+}   
+.campo{
+    width: 100%;
+    height: 50px;
+    margin: 2%; 
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.7);;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.campo input:focus{
+    border: none;
+    outline: none;
+}
+
+.container button{
+    padding: 10px 12px;
+    border-radius: 3px;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-top: 8px;
+}
+.btn-login{
+    background:blue;
+    color: white;
+    outline: none;
+    border: none;
+    float: right;
+}
+.btn-login:hover{
+    cursor: pointer;
+}
+.formulario{
+    margin: 5%;
+    
+    
+}
+body{
+    background-image: url(../Pages/assets/tecnologia.png);
+    background-size: cover;
+}

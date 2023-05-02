@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header a{
+    text-decoration: none;
+}
+.container-elementos-header{
+    background: #f5f5f5;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 84px;
+}
+.logo-container{
+    text-decoration: none;
+}
+.up-text{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.down-text{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.lista-navegação{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    border-bottom: 2px solid gold;
+    color: gold;
+    transition: 0.8s;
+}
+.cabecalho-link{
+    padding: 20px 20px;
+    text-align: center;
+    margin: 12px;
+}
+.titulo-container{
+    display: block;
+    padding: 4%;
+    text-transform: uppercase;
+}
+.subtitulo{ 
+    text-align: center;
+    display: block;
+}
+.conteudoPrincipal-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.conteudoPrincipal-linguagens{
+    display: flex;
+    width: 97%;
+    flex-wrap: wrap;
+    margin: 1%;
+   justify-content: space-between;
+}
+.conteudoPrincipal-linguagens-link{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 50px 50px;
+    margin: 1%;
+    width: 31%;
+    
+}
+.conteudoPrincipal-linguagens-link a:hover{
+    text-decoration: none;
+    border-bottom: none;
+    color: black;
+    transition: none;   
+}
+.container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    flex-direction: column;
+    margin: 2%;
+    border-radius: 30px;
+    margin-top: 180px;
+}
+.subtitulo{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.titulo{
+    font-size: 48px;
+}
+.info{
+    text-align: center;
+    align-items: center;
+    width: 95%;
+    padding: 20px 20px;
+    margin: 1%;
+    font-size: 20px;
+}
+.conteudoPrincipal{
+    background-image: url(../Pages/assets/programacao-background.png);
+    background-size: cover;
+}
