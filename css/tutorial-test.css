@@ -61,3 +61,23 @@ nav a:hover{
     font-size: 20px;
     margin: 2%;
 }
+.howto{
+    text-align: left;
+    font-size: 20px;
+    margin: 2%;
+}
+.subtitulo{
+    text-align: center;
+    margin: 1%;
+}
+.howto a{
+    text-decoration: none;
+    color: blue;
+}
+.howto img{
+    margin: 1%;
+    margin-top: 100px;
+    position: relative;
+    left: 25%;
+    width: 640px;
+}
