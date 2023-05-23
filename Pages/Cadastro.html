@@ -26,20 +26,20 @@
     <section>
         <div class="container">
             <div class="formulario-container">
-                <form class="form">
+                <form class="form" method="post" action=" ">
                     <h1>Cadastro</h1>
                         <div class="campos">
                                 <div class="campos nome">
-                              <input type="text" placeholder="Nome" required>   
+                              <input type="text" placeholder="Nome" name="nome" required>   
                             </div>
                                 <div class="campos email">
-                              <input type="email" placeholder="E-mail" required></div>
+                              <input type="email" placeholder="E-mail" name="email" required></div>
                                 <div class="campos password">
-                              <input type="password" placeholder="Senha" required></div>
+                              <input type="password" placeholder="Senha" name="senha" required></div>
                                 <div class="campos password2">
                               <input type="password" placeholder="Repita a Senha" required></div>
                         </div> 
-                    <input type="submit" value="Cadastrar" class="btn-submit"> 
+                    <input type="submit" value="Cadastrar" class="btn-submit" name="submit"> 
                 </form>
             </div>
         </div>
