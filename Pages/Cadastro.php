@@ -8,7 +8,6 @@
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 
-    
         $submit = $conn->prepare('INSERT INTO `usuario` (`id_usuario`, `nm_nome`, `ds_email`, `vl_senha`) VALUES (NULL, :nome, :email, :senha)');
         $submit->bindValue(':nome', $nome);
         $submit->bindValue(':email', $email);
@@ -17,12 +16,6 @@
     }
 ?>
 
-<script>
-    if ( window.history.replaceState ) {
-        window.history.replaceState( null, null, window.location.href );
-    }
-</script>
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,6 +23,7 @@
     <link rel="stylesheet" href="../css/cadastro.css">
     <title>Cadastro</title>
 </head>
+
 <header>
     <div class="container-elementos-header">
         <div class="logo-container">
@@ -45,6 +39,7 @@
         </nav>
     </div>
 </header>
+
 <main>
     <section>
         <div class="container">
@@ -68,4 +63,11 @@
         </div>
     </section>
 </main>
+
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
+
 </html>
