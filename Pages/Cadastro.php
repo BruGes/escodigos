@@ -3,11 +3,12 @@
 <?php include "config.php"; ?>
 
 <?php
-    $nome = $_POST['nome'];
-    $email = $_POST['email'];
-    $senha = $__POST['senha'];
-
     if (isset($_POST['submit'])) {
+        $nome = $_POST['nome'];
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+
+    
         $submit = $conn->prepare('INSERT INTO `usuario` (`id_usuario`, `nm_nome`, `ds_email`, `vl_senha`) VALUES (NULL, :nome, :email, :senha)');
         $submit->bindValue(':nome', $nome);
         $submit->bindValue(':email', $email);
@@ -15,6 +16,12 @@
         $submit->execute();
     }
 ?>
+
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
 
 <head>
     <meta charset="UTF-8">
