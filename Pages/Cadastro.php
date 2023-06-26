@@ -27,8 +27,8 @@
 <header>
     <div class="container-elementos-header">
         <div class="logo-container">
-            <a href="Página-inicial.php"><h1 class="up-text">Escola</h1></a>
-            <a href="Página-inicial.php"><p class="down-text">do Código</p></a>
+            <a href="../index.html"><h1 class="up-text">Escola</h1></a>
+            <a href="../index.html"><p class="down-text">do Código</p></a>
         </div>
         <nav>
             <ul class="lista-navegação">
