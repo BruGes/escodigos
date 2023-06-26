@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include "config.php"; ?>
+<?php include "validation.php"; ?>
+
 
 <?php
     if (isset($_POST['submit'])) {
@@ -55,7 +57,7 @@
                                 <div class="campos password">
                               <input type="password" placeholder="Senha" name="senha" required></div>
                                 <div class="campos password2">
-                              <input type="password" placeholder="Repita a Senha" required></div>
+                              <input type="password" placeholder="Repita a Senha" name="senha2" required></div>
                         </div> 
                     <input type="submit" value="Cadastrar" class="btn-submit" name="submit"> 
                 </form>
