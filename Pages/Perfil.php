@@ -15,9 +15,9 @@
         </div>
         <nav>
             <ul class="lista-navegação">
-                <li class="cabecalho-link"><a href="Linguagens.php">Linguagens</a></li>
-                <li class="cabecalho-link"><a href="Tutoriais.php">Tutoriais</a></li>
-                <li class="cabecalho-link"><a href="Perfil.php">Perfil</a></li>
+                <li class="cabecalho-link"><a href="../Linguagens.php">Linguagens</a></li>
+                <li class="cabecalho-link"><a href="../Tutoriais.php">Tutoriais</a></li>
+                <li class="cabecalho-link"><a href="../Perfil.php">Perfil</a></li>
             </ul>
         </nav>
     </div>
@@ -36,7 +36,7 @@
                 <span class="span-login hidden">Senha Incorreta</span>
             </div>
             <a href="Cadastro.php" class="btn cadastro">Cadastre-se</a>
-            <button type="submit" class="btn btn-login">Logar</button>
+            <button type="submit" class="btn btn-login" name="logar">Logar</button>
         </form>
         
         </div>
