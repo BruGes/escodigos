@@ -11,8 +11,8 @@
 <header>
     <div class="container-elementos-header">
         <div class="logo-container">
-            <a href="../index.html"><h1 class="up-text">Escola</h1></a>
-            <a href="../index.html"><p class="down-text">do Código</p></a>
+            <a href="../index.php"><h1 class="up-text">Escola</h1></a>
+            <a href="../index.php"><p class="down-text">do Código</p></a>
         </div>
         <nav>
             <ul class="lista-navegação">
