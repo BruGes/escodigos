@@ -27,7 +27,7 @@
     <div class="container">
         <div class="formulario-container">
         <h1 class="titulo">Login</h1>
-        <form class="formulario"  method="POST" action="../validation.php">
+        <form class="formulario"  method="POST" action="validation.php">
             <div class="email-container">
                 <input type="email" placeholder="E-mail" id="email-login" name="email-login" class="campo email" required>
                 <span class="span-login hidden">Email Incorreto</span>
