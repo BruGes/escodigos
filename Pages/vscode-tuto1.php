@@ -16,14 +16,14 @@
         </div>
         <nav>
             <ul class="lista-navegação">
-                <li class="cabecalho-link"><a href="../Pages/Linguagens.php">Linguagens</a></li>
-                <li class="cabecalho-link"><a href="../Pages/Tutoriais.php">Tutoriais</a></li>
-                <li class="cabecalho-link"><a href="../Pages/Perfil.php">Perfil</a></li>
+                <li class="cabecalho-link"><a href="Linguagens.php">Linguagens</a></li>
+                <li class="cabecalho-link"><a href="Tutoriais.php">Tutoriais</a></li>
+                <li class="cabecalho-link"><a href="Perfil.php">Perfil</a></li>
             </ul>
         </nav>
     </div>
 </header>
-<img src="../Pages/assets/hheart.png" class="i-heart">
+<img src="assets/hheart.png" class="i-heart">
 <main class="text-container">
     <div class="title">
         <h1 class="title-l">COMO BAIXAR O VSCODE</h1>
@@ -32,7 +32,7 @@
         <p>Olá muito prazer, Seja muito bem vindo a aula de como baixar o VSCODE.</p>
         <P>Esta será uma aula dinâmica de como baixar o famoso editor de código Visual Studio Code.</P>
         <p>Ao clicar neste link: <a href="https://code.visualstudio.com" class="links">LINK</a> você será redirecionado para a paginá onde poderá baixar o instalador.</p>
-        <img src="../Pages/assets/t1-img1.png" class="imgs-t">
+        <img src="assets/t1-img1.png" class="imgs-t">
         <p> Clique na flechinha e escolha a mais opção adequada para seu dispositivo.</p>
         <p>Após baixar o instalador, clique 2x nele e comece a instalação. Siga os passos especificados.</p>
     </div>

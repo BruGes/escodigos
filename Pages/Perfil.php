@@ -16,9 +16,9 @@
         </div>
         <nav>
             <ul class="lista-navegação">
-                <li class="cabecalho-link"><a href="../Linguagens.php">Linguagens</a></li>
-                <li class="cabecalho-link"><a href="../Tutoriais.php">Tutoriais</a></li>
-                <li class="cabecalho-link"><a href="../Perfil.php">Perfil</a></li>
+                <li class="cabecalho-link"><a href="Linguagens.php">Linguagens</a></li>
+                <li class="cabecalho-link"><a href="Tutoriais.php">Tutoriais</a></li>
+                <li class="cabecalho-link"><a href="Perfil.php">Perfil</a></li>
             </ul>
         </nav>
     </div>
@@ -27,7 +27,7 @@
     <div class="container">
         <div class="formulario-container">
         <h1 class="titulo">Login</h1>
-        <form class="formulario"  method="POST" action="../validation.php">
+        <form class="formulario"  method="POST" action="validation.php">
             <div class="email-container">
                 <input type="email" placeholder="E-mail" id="email-login" name="email-login" class="campo email" required>
                 <span class="span-login hidden">Email Incorreto</span>

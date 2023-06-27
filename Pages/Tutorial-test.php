@@ -15,9 +15,9 @@
         </div>
         <nav>
             <ul class="lista-navegação">
-                <li class="cabecalho-link"><a href="../Linguagens.php">Linguagens</a></li>
-                <li class="cabecalho-link"><a href="../Tutoriais.php">Tutoriais</a></li>
-                <li class="cabecalho-link"><a href="../Perfil.php">Perfil</a></li>
+                <li class="cabecalho-link"><a href="Linguagens.php">Linguagens</a></li>
+                <li class="cabecalho-link"><a href="Tutoriais.php">Tutoriais</a></li>
+                <li class="cabecalho-link"><a href="Perfil.php">Perfil</a></li>
             </ul>
         </nav>
     </div>
@@ -49,7 +49,7 @@
                     <br>
                      Aqui está o link onde você pode baixar:   <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
                 </p>
-                <img class="img-exp" src="../Pages/assets/img1.png">
+                <img class="img-exp" src="assets/img1.png">
                 <p>
                     Clique onde a flecha está apontando para baixar o arquivo de instalação e ao abrir instale aonde quiser.
                 </p>
