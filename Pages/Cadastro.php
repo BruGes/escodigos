@@ -17,6 +17,8 @@
             $submit->bindValue(':email', $email);
             $submit->bindValue(':senha', $senha);
             $submit->execute();
+        }else{
+            echo '<script>alert("As senhas inseridas devem ser iguais")</script>';
         }
     }
 ?>
@@ -69,10 +71,10 @@
     </section>
 </main>
 
+
 <script>
     if ( window.history.replaceState ) {
         window.history.replaceState( null, null, window.location.href );
     }
 </script>
-
 </html>
