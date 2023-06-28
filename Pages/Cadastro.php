@@ -1,3 +1,6 @@
+<?php include "validation.php"; ?>
+<?php include "config.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,11 +50,9 @@
         </div>
     </section>
 </main>
-<?php include "config.php"; ?>
-<?php include "validation.php"; ?>
-
 
 <?php
+
     if (isset($_POST['submit'])) {
         $nome = $_POST['nome'];
         $email = $_POST['email'];
@@ -66,7 +67,10 @@
             $submit->execute();
             ?>
             <script>
-                window.location.replace("https://siteteste69.000webhostapp.com/Pages/Cadastro-Sucesso.php");
+                let host = "https://siteteste69.000webhostapp.com/Pages/Cadastro-Sucesso.php";
+                let hub = "Cadastro-Sucesso.php"
+
+                window.location.replace(hub);
             </script>
             <?php
         }

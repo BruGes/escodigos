@@ -1,4 +1,3 @@
-
 <?php include "consultas.php"; ?>
 
 <!DOCTYPE html>
