@@ -12,4 +12,9 @@ $email_consulta->bindValue(':id',$_SESSION['id']);
 $email_consulta->execute();
 $emailuser = $email_consulta->fetchColumn();
 
+$senha_consulta = $conn->prepare('SELECT `vl_senha` FROM `usuario` WHERE `id_usuario` = :id');
+$senha_consulta->bindValue(':id',$_SESSION['id']);
+$senha_consulta->execute();
+$senhauser = $senha_consulta->fetchColumn();
+
 ?>

@@ -26,7 +26,13 @@
 </header>
 <main>
     <div class="container">
-        <p> <?php echo $nomeuser; ?> </p>
-        <p> <?php echo $emailuser; ?> </p>
+        <ul>
+            <li>nome:</li>
+            <li>email:</li>
+        </ul>
+        <ul>
+            <li><?php echo $nomeuser; ?></li>
+            <li><?php echo $emailuser; ?></li>
+        </ul>
     </div>
 </main>
