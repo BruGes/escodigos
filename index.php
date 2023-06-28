@@ -17,7 +17,7 @@
             <ul class="lista-navegação">
                 <li class="cabecalho-link"><a href="Pages/Linguagens.php">Linguagens</a></li>
                 <li class="cabecalho-link"><a href="Pages/Tutoriais.php">Tutoriais</a></li>
-                <li class="cabecalho-link"><a href="Pages/Perfil.php">Perfil</a></li>
+                <li class="cabecalho-link"><a href="Pages/Perfil.php">Login</a></li>
             </ul>
         </nav>
     </div>
