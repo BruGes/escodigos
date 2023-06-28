@@ -1,7 +1,6 @@
+<?php session_start(); ?>
 
 <?php
-session_start();
-
 if (isset($_POST['logar'])) {
     $email = $_POST['email-login'];
     $senha = $_POST['Senha-login'];
