@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header a{
+    text-decoration: none;
+}
+.container-elementos-header{
+    background: #f5f5f5;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 84px;
+}
+.logo-container{
+    text-decoration: none;
+}
+.up-text{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.down-text{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.lista-navegação{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    border-bottom: 2px solid gold;
+    color: gold;
+    transition: 0.8s;
+}
+.cabecalho-link{
+    padding: 20px 20px;
+    text-align: center;
+    margin: 12px;
+}
+body{
+    background-image: url(../Pages/assets/programacao-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0.5);
+}
+.texto-inicial-container{
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 30px;
+    margin-top: 280px;
+}
+.titulo{
+    color: white;
+}
+.container{
+    margin: 1%;
+    display: flex;
+}
+.info-box{
+    padding: 40px 30px;
+    margin: 1%;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:520px){
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+    .lista-navegação{
+        display: flex;
+    }
+    main{
+            display: flex;
+            
+    }
+    .texto-inicial-container{
+        margin: none;
+        text-align: center;
+        
+    }
+    .texto-inicial-container h1{
+        font-size: 20px;
+        
+    }
+}
