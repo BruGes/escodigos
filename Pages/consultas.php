@@ -12,7 +12,4 @@ $email_consulta->bindValue(':id',$_SESSION['id']);
 $email_consulta->execute();
 $emailuser = $email_consulta->fetchColumn();
 
-echo $nomeuser . "</br>";
-echo $emailuser;
-
 ?>
