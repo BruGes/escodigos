@@ -1,12 +1,6 @@
 <?php
 session_start();
 
-$host_loginErrado = "https://siteteste69.000webhostapp.com/Pages/loginErrado.php";
-$hub_loginErrado = "loginErrado.php";
-$host_logado = "https://siteteste69.000webhostapp.com/Pages/logado.php";
-$hub_logado = "logado.php";
-
-
 if (isset($_POST['logar'])) {
     $email = $_POST['email-login'];
     $senha = $_POST['Senha-login'];
@@ -27,7 +21,8 @@ if (isset($_POST['logar'])) {
     if($consulta->rowCount()==0){
         ?>
         <script>
-        window.location.replace($hub_loginErrado);
+        window.location.replace("loginErrado.php");
+        //window.location.replace("https://siteteste69.000webhostapp.com/Pages/loginErrado.php");
         </script>
         <?php
     }
@@ -38,7 +33,8 @@ if (isset($_POST['logar'])) {
         echo $_SESSION['id'];
         ?>
         <script>
-                window.location.replace($hub_logado);
+                window.location.replace("logado.php");
+                //window.location.replace("https://siteteste69.000webhostapp.com/Pages/logado.php");
         </script>
         <?php
         
