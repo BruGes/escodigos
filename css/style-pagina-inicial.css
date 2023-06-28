@@ -78,6 +78,22 @@ body{
     color: white;
     text-align: center;
 }
+.footer-container{
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+}
+.footer-container ul{
+    display: flex;
+    flex-direction: column;
+    margin: 15.5px;
+    
+}
+.footer-container li{
+    list-style: none;
+    padding: 6px 6px;
+}
 
 @media screen and (max-width:520px){
     header{
