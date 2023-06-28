@@ -21,7 +21,7 @@ if (isset($_POST['logar'])) {
     if($consulta->rowCount()==0){
         ?>
         <script>
-        window.location.replace("https://siteteste69.000webhostapp.com/index.php");
+        window.location.replace("https://siteteste69.000webhostapp.com/Pages/loginErrado.php");
         </script>
         <?php
     }
@@ -30,6 +30,12 @@ if (isset($_POST['logar'])) {
         $_SESSION['id'] = $iduser;
 
         echo $_SESSION['id'];
+        ?>
+        <script>
+                window.location.replace("https://siteteste69.000webhostapp.com/Pages/logado.php");
+        </script>
+        <?php
+        
     }
 
 
