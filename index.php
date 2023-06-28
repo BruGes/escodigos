@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style-página-inicial.css">
+    <link rel="stylesheet" href="css/style-pagina-inicial.css">
     <title>Escola do Código</title>
 </head>
 <header>
@@ -51,4 +51,10 @@
         </div>               
     </section>
 </main>
+<footer class="footer-container">
+    <ul>
+       <li>Telefone para contato : (50)9-9999-9999</li> 
+       <li>Email para falar conosco: ihriel.mosko@gmail.com</li>
+    </ul>
+</footer>
 </html>
