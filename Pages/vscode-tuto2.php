@@ -31,7 +31,7 @@
     <div class="text-main">
         <p>Existem algumas formas de se abrir ou criar um novo projeto no vscode, abordaremos algumas delas</p>
         </br>
-        <P>Para abrir um novo projeto, clique no símbolo de arquivo na barra lateral direita</P>
+        <P>Para abrir um novo projeto, clique no símbolo de arquivo na barra lateral esquerda</P>
         <img src="assets/t2-img1.png" class="imgs-t">
         <p>Assim você abrirá o explorador de arquivos do vscode, é aí aonde os arquivos do seu projeto irão aparecer</p>
         <p>Mas como ainda não temos nenhum arquivo aberto, temos algumas opções para se seguir</p>
