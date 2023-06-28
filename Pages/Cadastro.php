@@ -64,6 +64,11 @@
             $submit->bindValue(':email', $email);
             $submit->bindValue(':senha', $senha);
             $submit->execute();
+            ?>
+            <script>
+                window.location.replace("https://siteteste69.000webhostapp.com/Pages/Cadastro-Sucesso.php");
+            </script>
+            <?php
         }
     }
 ?>

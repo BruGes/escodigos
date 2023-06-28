@@ -23,6 +23,13 @@
     </div>
 </header>
 <main>
-
+<div class="container-caixa">
+        <h1>
+            Cadastrado com sucesso.
+        </h1>
+        <img src="assets/done.png">
+        <p>As informações passadas foram cadastradas no sistema.</p>
+        <p>Se deseja voltar a página de login clique<a href="Perfil.php"> aqui</a>.</p>    
+    </div>
 </main>
 </html>
