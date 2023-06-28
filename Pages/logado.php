@@ -1,10 +1,12 @@
+<?php include "consultas.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/loginerrado.css">
+    <link rel="stylesheet" href="../css/logado.css">
     <title>Perfil</title>
 </head>
 <header>
@@ -22,3 +24,9 @@
         </nav>
     </div>
 </header>
+<main>
+    <div class="container">
+        <p> <?php echo $nomeuser; ?> </p>
+        <p> <?php echo $emailuser; ?> </p>
+    </div>
+</main>
