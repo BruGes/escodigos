@@ -1,26 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include "config.php"; ?>
-<?php include "validation.php"; ?>
-
-
-<?php
-    if (isset($_POST['submit'])) {
-        $nome = $_POST['nome'];
-        $email = $_POST['email'];
-        $senha = $_POST['senha'];
-        $senha2 = $_POST['senha2'];
-
-        if ($senha == $senha2) {
-            $submit = $conn->prepare('INSERT INTO `usuario` (`id_usuario`, `nm_nome`, `ds_email`, `vl_senha`) VALUES (NULL, :nome, :email, :senha)');
-            $submit->bindValue(':nome', $nome);
-            $submit->bindValue(':email', $email);
-            $submit->bindValue(':senha', $senha);
-            $submit->execute();
-        }
-    }
-?>
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -68,6 +47,26 @@
         </div>
     </section>
 </main>
+<?php include "config.php"; ?>
+<?php include "validation.php"; ?>
+
+
+<?php
+    if (isset($_POST['submit'])) {
+        $nome = $_POST['nome'];
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+        $senha2 = $_POST['senha2'];
+
+        if ($senha == $senha2) {
+            $submit = $conn->prepare('INSERT INTO `usuario` (`id_usuario`, `nm_nome`, `ds_email`, `vl_senha`) VALUES (NULL, :nome, :email, :senha)');
+            $submit->bindValue(':nome', $nome);
+            $submit->bindValue(':email', $email);
+            $submit->bindValue(':senha', $senha);
+            $submit->execute();
+        }
+    }
+?>
 
 <script>
     if ( window.history.replaceState ) {

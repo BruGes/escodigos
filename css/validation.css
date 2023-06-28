@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    text-align: center;
+    background-color: white;
+}
+.container h1{
+    color: black;
+}
+.container p{
+    color: black;
+}
