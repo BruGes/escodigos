@@ -1,15 +1,23 @@
+<?php session_start(); ?>
 
 <?php
-
 if (isset($_POST['logar'])) {
     $email = $_POST['email-login'];
     $senha = $_POST['Senha-login'];
-    $email2;
+
     include "config.php";
     $consulta = $conn->prepare('SELECT * FROM `usuario` WHERE `ds_email` = :emaill AND `vl_senha` = :senhal');
     $consulta->bindValue(':emaill',$email);
     $consulta->bindValue(':senhal',$senha);
     $consulta->execute();
+
+    $idconsulta = $conn->prepare('SELECT `id_usuario` FROM `usuario` WHERE `ds_email` = :emaill AND `vl_senha` = :senhal');
+    $idconsulta->bindValue(':emaill',$email);
+    $idconsulta->bindValue(':senhal',$senha);
+    $idconsulta->execute();
+    $iduser = $idconsulta->fetchColumn();
+
+
     if($consulta->rowCount()==0){
         ?>
         <script>
@@ -18,9 +26,10 @@ if (isset($_POST['logar'])) {
         <?php
     }
     else{
-        ?>
-        <h1>2222222222222222222</h1>
-        <?php
+
+        $_SESSION['id'] = $iduser;
+
+        echo $_SESSION['id'];
     }
 
 
