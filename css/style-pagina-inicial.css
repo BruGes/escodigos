@@ -92,7 +92,7 @@ body{
 }
 .footer-container li{
     list-style: none;
-    padding: 6px 6px;
+    padding: 9px 6px;
 }
 
 @media screen and (max-width:520px){
