@@ -1,5 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
+=======
+<?php include "config.php"; ?>
+<?php include "validation.php"; ?>
+
+
+<?php
+    if (isset($_POST['submit'])) {
+        $nome = $_POST['nome'];
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+        $senha2 = $_POST['senha2'];
+
+        if ($senha == $senha2) {
+            $submit = $conn->prepare('INSERT INTO `usuario` (`id_usuario`, `nm_nome`, `ds_email`, `vl_senha`) VALUES (NULL, :nome, :email, :senha)');
+            $submit->bindValue(':nome', $nome);
+            $submit->bindValue(':email', $email);
+            $submit->bindValue(':senha', $senha);
+            $submit->execute();
+        }else{
+            echo '<script>alert("As senhas inseridas devem ser iguais")</script>';
+        }
+    }
+?>
+
+>>>>>>> 80eec00a535575f06eb92444d5d7923fa8055365
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +37,8 @@
 <header>
     <div class="container-elementos-header">
         <div class="logo-container">
-            <a href="../index.html"><h1 class="up-text">Escola</h1></a>
-            <a href="../index.html"><p class="down-text">do Código</p></a>
+            <a href="../index.php"><h1 class="up-text">Escola</h1></a>
+            <a href="../index.php"><p class="down-text">do Código</p></a>
         </div>
         <nav>
             <ul class="lista-navegação">
@@ -68,10 +94,10 @@
     }
 ?>
 
+
 <script>
     if ( window.history.replaceState ) {
         window.history.replaceState( null, null, window.location.href );
     }
 </script>
-
 </html>
