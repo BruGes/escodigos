@@ -6,9 +6,9 @@
         </div>
         <nav>
             <ul class="lista-navegação">
-                <li class="cabecalho-link"><a href="linguagens.php">Linguagens</a></li>
-                <li class="cabecalho-link"><a href="tutoriais.php">Tutoriais</a></li>
-                <li class="cabecalho-link"><a href="login.php">Login</a></li>
+                <li class="cabecalho-link"><a href="../pages/linguagens.php">Linguagens</a></li>
+                <li class="cabecalho-link"><a href="../pages/tutoriais.php">Tutoriais</a></li>
+                <li class="cabecalho-link"><a href="../pages/login.php">Login</a></li>
             </ul>
         </nav>
     </div>
