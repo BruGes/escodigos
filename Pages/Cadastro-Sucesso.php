@@ -17,7 +17,7 @@
         </h1>
         <img src="assets/done.png">
         <p>As informações passadas foram cadastradas no sistema.</p>
-        <p>Se deseja voltar a página de login clique<a href="Perfil.php"> aqui</a>.</p>    
+        <p>Se deseja voltar a página de login clique<a href="Login.php"> aqui</a>.</p>    
     </div>
 </main>
 </html>
