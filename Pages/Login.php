@@ -16,7 +16,7 @@
     <div class="container">
         <div class="formulario-container">
         <h1 class="titulo">Login</h1>
-        <form class="formulario"  method="POST" action="Login.php">
+        <form class="formulario"  method="POST" action="login.php">
             <div class="email-container">
                 <input type="email" placeholder="E-mail" id="email-login" name="email-login" class="campo email" required>
                 <span class="span-login hidden">Email Incorreto</span>
@@ -25,7 +25,7 @@
                 <input type="password" placeholder="Senha" id="password-login" name="Senha-login" class="campo senha" required>
                 <span class="span-login hidden">Senha Incorreta</span>
             </div>
-            <a href="Cadastro.php" class="btn cadastro">Cadastre-se</a>
+            <a href="cadastro.php" class="btn cadastro">Cadastre-se</a>
             <button type="submit" class="btn btn-login" name="logar">Logar</button>
         </form>
         

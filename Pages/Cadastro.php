@@ -17,7 +17,7 @@
     <section>
         <div class="container">
             <div class="formulario-container">
-                <form class="form" method="post" action="Cadastro.php"> //testa isso
+                <form class="form" method="post" action="cadastro.php">
                     <h1>Cadastro</h1>
                         <div class="campos">
                                 <div class="campos nome">
