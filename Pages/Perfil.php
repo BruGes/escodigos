@@ -21,24 +21,6 @@
         <ul>
             <li><?php echo $nomeuser; ?></li>
             <li><?php echo $emailuser; ?></li>
-            <form method="post" action="perfil.php">
-                <input type="submit" value="sair" name="sair">
-            </form>
         </ul>
     </div>
 </main>
-
-<?php
-if (isset($_POST['sair'])) {
-
-    session_abort();
-    session_destroy();
-
-?>
-
-    <script>
-        window.location.replace("login.php");
-        //window.location.replace("https://siteteste69.000webhostapp.com/pages/login.php");
-    </script>
-
-<?php } ?>
