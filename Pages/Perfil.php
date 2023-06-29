@@ -1,4 +1,4 @@
-<?php include "consultas.php"; ?>
+<?php include "../script/consultas.php"; ?>
 
 <!DOCTYPE html>
 <html lang="en">

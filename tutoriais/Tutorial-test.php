@@ -8,7 +8,7 @@
     <title>Tutorial - Template</title>
 </head>
 
-<?php include "header.php"; ?>
+<?php include "../pages/header.php"; ?>
 
 <main>
     <div class="container">
@@ -37,7 +37,7 @@
                     <br>
                      Aqui está o link onde você pode baixar:   <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
                 </p>
-                <img class="img-exp" src="assets/img1.png">
+                <img class="img-exp" src="../assets/img1.png">
                 <p>
                     Clique onde a flecha está apontando para baixar o arquivo de instalação e ao abrir instale aonde quiser.
                 </p>

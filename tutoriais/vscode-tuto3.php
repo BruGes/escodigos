@@ -9,9 +9,9 @@
     <title>VSCode Tutorial 1</title>
 </head>
 
-<?php include "header.php"; ?>
+<?php include "../pages/header.php"; ?>
 
-<img src="assets/hheart.png" class="i-heart">
+<img src="../assets/hheart.png" class="i-heart">
 <main class="text-container">
     <div class="title">
         <h1 class="title-l">ARQUIVOS E EXTENSÕES</h1>
@@ -25,7 +25,7 @@
         <p>algumas linguagens como javascript e html são instaladas junto com o chrome enquanto outras como php e c++ precisam ser instaladas corretamente e declaradas nas variáveis de ambiente</p>
         <p>Outra coisa útil no vscode são as extensões, extensões são subprogramas que podem ser facilmente instaláveis e ajudam a deixar o vscode mais poderoso e flexível</p>
         <p>Para acessar o marketplace e buscar extensões é só clicar no símbolo de extensão na barra lateral esquerda</p>
-        <img src="assets/t3-img1.png" class="imgs-t">
+        <img src="../assets/t3-img1.png" class="imgs-t">
         <p>É sempre útil baixar extensões de intelliSense, debugging, compile & run e etc da sua linguagem de preferência</p>
         <p>basta pesquisar o nome da linguagem e instalar a extensão recomendada</p>
         <p>Fora isso existem diversos vídeos, sites e artigos sobre extensões úteis e populares para personalizar sua IDE</p>

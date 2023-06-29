@@ -1,5 +1,5 @@
-<?php include "validation.php"; ?>
-<?php include "config.php"; ?>
+<?php include "../script/validation.php"; ?>
+<?php include "../script/config.php"; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +17,7 @@
     <section>
         <div class="container">
             <div class="formulario-container">
-                <form class="form" method="post" action="Cadastro.php">
+                <form class="form" method="post" action="Cadastro.php"> //testa isso
                     <h1>Cadastro</h1>
                         <div class="campos">
                                 <div class="campos nome">
@@ -37,32 +37,7 @@
     </section>
 </main>
 
-<?php
-
-    if (isset($_POST['submit'])) {
-        $nome = $_POST['nome'];
-        $email = $_POST['email'];
-        $senha = $_POST['senha'];
-        $senha2 = $_POST['senha2'];
-
-        if ($senha == $senha2) {
-            $submit = $conn->prepare('INSERT INTO `usuario` (`id_usuario`, `nm_nome`, `ds_email`, `vl_senha`) VALUES (NULL, :nome, :email, :senha)');
-            $submit->bindValue(':nome', $nome);
-            $submit->bindValue(':email', $email);
-            $submit->bindValue(':senha', $senha);
-            $submit->execute();
-            ?>
-            <script>
-                let host = "https://siteteste69.000webhostapp.com/Pages/Cadastro-Sucesso.php";
-                let hub = "Cadastro-Sucesso.php"
-
-                window.location.replace(hub);
-            </script>
-            <?php
-        }
-    }
-?>
-
+<?php include "../script/insert.php"; ?>
 
 <script>
     if ( window.history.replaceState ) {
