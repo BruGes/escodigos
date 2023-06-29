@@ -15,8 +15,8 @@
             ?>
             <script>
 
-                window.location.replace("https://siteteste69.000webhostapp.com/pages/cadastro-Sucesso.php");
-                //window.location.replace("../pages/cadastro-Sucesso.php");
+                //window.location.replace("https://siteteste69.000webhostapp.com/pages/cadastro-Sucesso.php");
+                window.location.replace("../pages/cadastro-Sucesso.php");
                 
             </script>
             <?php

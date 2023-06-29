@@ -1,4 +1,5 @@
-<?php include "../script/consultas.php"; ?>
+<?php session_start();
+include "../script/consultas.php"; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +22,9 @@
         <ul>
             <li><?php echo $nomeuser; ?></li>
             <li><?php echo $emailuser; ?></li>
+            <form method="post" action="Perfil.php">
+                <input type="submit" value="sair" name="sair">
+            </form>
         </ul>
     </div>
 </main>

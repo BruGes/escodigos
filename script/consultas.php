@@ -1,5 +1,4 @@
-<?php session_start();
-include "config.php";
+<?php include "config.php";
 
 $nome_consulta = $conn->prepare('SELECT `nm_nome` FROM `usuario` WHERE `id_usuario` = :id');
 $nome_consulta->bindValue(':id',$_SESSION['id']);

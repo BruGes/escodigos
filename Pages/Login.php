@@ -1,4 +1,5 @@
-<?php include "../script/validation.php"?>
+<? session_start();
+include "../script/validation.php"?>
 
 <!DOCTYPE html>
 <html lang="en">
