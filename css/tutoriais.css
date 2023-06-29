@@ -75,7 +75,7 @@ nav a:hover{
     height: 60px;
 }
 body{
-    background: url(../Pages/assets/programacao-background.png);
+    background: url(../assets/programacao-background.png);
     background-size: cover;
     color: white;
 }

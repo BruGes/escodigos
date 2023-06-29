@@ -113,6 +113,6 @@ nav a:hover{
     font-size: 20px;
 }
 .conteudoPrincipal{
-    background-image: url(../Pages/assets/programacao-background.png);
+    background-image: url(../assets/programacao-background.png);
     background-size: cover;
 }

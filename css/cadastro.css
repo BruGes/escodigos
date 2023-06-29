@@ -49,7 +49,7 @@ nav a:hover{
     margin: 12px;
 }
 body{
-    background-image: url(../Pages/assets/tecnologia.png);
+    background-image: url(../assets/tecnologia.png);
     background-size: cover;
 }
 .container{

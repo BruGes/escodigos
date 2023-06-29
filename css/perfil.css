@@ -106,6 +106,6 @@ nav a:hover{
     display: none;
 }
 body{
-    background-image: url(../Pages/assets/tecnologia.png);
+    background-image: url(../assets/tecnologia.png);
     background-size: cover;
 }
