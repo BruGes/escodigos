@@ -8,7 +8,7 @@
             <ul class="lista-navegação">
                 <li class="cabecalho-link"><a href="Linguagens.php">Linguagens</a></li>
                 <li class="cabecalho-link"><a href="Tutoriais.php">Tutoriais</a></li>
-                <li class="cabecalho-link"><a href="Perfil.php">Login</a></li>
+                <li class="cabecalho-link"><a href="Login.php">Login</a></li>
             </ul>
         </nav>
     </div>

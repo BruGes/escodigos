@@ -21,8 +21,8 @@ if (isset($_POST['logar'])) {
     if($consulta->rowCount()==0){
         ?>
         <script>
-        window.location.replace("loginErrado.php");
-        //window.location.replace("https://siteteste69.000webhostapp.com/Pages/loginErrado.php");
+            window.location.replace("loginErrado.php");
+            //window.location.replace("https://siteteste69.000webhostapp.com/Pages/loginErrado.php");
         </script>
         <?php
     }
@@ -33,8 +33,8 @@ if (isset($_POST['logar'])) {
         echo $_SESSION['id'];
         ?>
         <script>
-                window.location.replace("logado.php");
-                //window.location.replace("https://siteteste69.000webhostapp.com/Pages/logado.php");
+            window.location.replace("Perfil.php");
+            //window.location.replace("https://siteteste69.000webhostapp.com/Pages/Perfil.php");
         </script>
         <?php
         
