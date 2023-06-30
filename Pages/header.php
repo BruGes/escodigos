@@ -11,7 +11,7 @@
 
                 <?php if (isset($_SESSION['id'])) { ?>
 
-                    <li class="cabecalho-link"><a href="Perfil.php">Perfil <?php echo $_SESSION['id'] ?></a></li>
+                    <li class="cabecalho-link"><a href="perfil.php">Perfil <?php echo $_SESSION['id'] ?></a></li>
 
                 <?php } else { ?>
 

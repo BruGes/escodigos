@@ -68,8 +68,8 @@ if (isset($_POST['logar'])) {
 
         ?>
         <script>
-            window.location.replace("Perfil.php");
-            //window.location.replace("https://siteteste69.000webhostapp.com/Perfil.php");
+            window.location.replace("perfil.php");
+            //window.location.replace("https://siteteste69.000webhostapp.com/perfil.php");
         </script>
         <?php
         
