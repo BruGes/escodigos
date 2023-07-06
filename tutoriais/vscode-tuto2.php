@@ -11,7 +11,7 @@
     <title>VSCode Tutorial 1</title>
 </head>
 
-<?php include "header.php" ?>
+<?php include "../header.php" ?>
 
 <img src="../assets/hheart.png" class="i-heart">
 <main class="text-container">

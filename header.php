@@ -1,16 +1,24 @@
 <?php
-if ($_SERVER['SCRIPT_NAME'] == "/escodigos/index.php") {
+if ( strpos($_SERVER['SCRIPT_NAME'], "index") != false) {
     $index = "index.php";
     $linguagens = "pages/linguagens.php";
     $tutoriais = "pages/tutoriais.php";
     $perfil = "pages/perfil.php";
     $login = "pages/login.php";
-} else {
+
+} else if ( strpos($_SERVER['SCRIPT_NAME'], "pages") != false) {
     $index = "../index.php";
     $linguagens = "linguagens.php";
     $tutoriais = "tutoriais.php";
     $perfil = "perfil.php";
     $login = "login.php";
+
+} else if ( strpos($_SERVER['SCRIPT_NAME'], "tuto") != false) {
+    $index = "../index.php";
+    $linguagens = "../pages/linguagens.php";
+    $tutoriais = "../pages/tutoriais.php";
+    $perfil = "../pages/perfil.php";
+    $login = "../pages/login.php";
 }
 ?>
 
@@ -22,7 +30,7 @@ if ($_SERVER['SCRIPT_NAME'] == "/escodigos/index.php") {
         </div>
         <nav>
             <ul class="lista-navegação">
-                <li class="cabecalho-link"><a href=<?php echo $linguagens; ?>>linguagens</a></li>
+                <li class="cabecalho-link"><a href=<?php echo $linguagens; ?>>Linguagens</a></li>
                 <li class="cabecalho-link"><a href=<?php echo $tutoriais; ?>>Tutoriais</a></li>
 
                 <?php if (isset($_SESSION['id'])) { ?>
