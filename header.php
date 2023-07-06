@@ -47,5 +47,3 @@ if ( strpos($_SERVER['SCRIPT_NAME'], "index") != false) {
         </nav>
     </div>
 </header>
-
-<?php $GLOBALS['isIndex'] = false; ?>

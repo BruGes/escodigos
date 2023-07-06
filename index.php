@@ -46,8 +46,6 @@ $GLOBALS['isIndex'] = true;?>
     <ul>
        <li>Telefone para contato : (50)9-9999-9999</li>
        <li>Email para falar conosco: ihriel.mosko@gmail.com </li>
-       <li><?php //echo $isIndex; ?></li>
-       <li><?php echo $_SERVER['SCRIPT_NAME']; ?></li>
     </ul>
 </footer>
 </html>
