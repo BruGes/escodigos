@@ -10,7 +10,7 @@
     <title>Tutoriais</title>
 </head>
 
-<?php include "header.php"; ?>
+<?php include "../header.php"; ?>
 
 <main>
     <div class="main container">

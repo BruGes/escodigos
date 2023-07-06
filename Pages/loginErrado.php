@@ -10,7 +10,7 @@
     <title>Perfil</title>
 </head>
 
-<?php include "header.php"; ?>
+<?php include "../header.php"; ?>
 
 <main>
     <div class="container-caixa">

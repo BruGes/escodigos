@@ -1,5 +1,4 @@
 <?php session_start();
-include "../script/validation.php";
 include "../script/config.php"; ?>
 
 <!DOCTYPE html>
@@ -12,7 +11,7 @@ include "../script/config.php"; ?>
     <title>Cadastro</title>
 </head>
 
-<?php include "header.php"; ?>
+<?php include "../header.php"; ?>
 
 <main>
     <section>
@@ -38,7 +37,29 @@ include "../script/config.php"; ?>
     </section>
 </main>
 
-<?php include "../script/insert.php"; ?>
+<?php
+
+if (isset($_POST['submit'])) {
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
+    $senha2 = $_POST['senha2'];
+
+    if ($senha == $senha2) {            $submit = $conn->prepare('INSERT INTO `usuario` (`id_usuario`, `nm_nome`, `ds_email`, `vl_senha`) VALUES (NULL, :nome, :email, :senha)');
+        $submit->bindValue(':nome', $nome);
+        $submit->bindValue(':email', $email);
+        $submit->bindValue(':senha', $senha);
+        $submit->execute();
+        ?>
+        <script>
+
+            //window.location.replace("https://siteteste69.000webhostapp.com/pages/cadastro-Sucesso.php");
+            window.location.replace("../pages/cadastro-Sucesso.php");
+            
+        </script>
+        <?php
+    }
+} ?>
 
 <script>
     if ( window.history.replaceState ) {

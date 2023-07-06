@@ -1,4 +1,5 @@
-<?php session_start(); ?>
+<?php session_start(); 
+$GLOBALS['isIndex'] = true;?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,31 +10,9 @@
     <link rel="stylesheet" href="css/style-pagina-inicial.css">
     <title>Escola do Código</title>
 </head>
-<header>
-    <div class="container-elementos-header">
-        <div class="logo-container">
-            <a href="index.php"><h1 class="up-text">Escola</h1></a>
-            <a href="index.php"><p class="down-text">do Código</p></a>
-        </div>
-        <nav>
-            <ul class="lista-navegação">
-                <li class="cabecalho-link"><a href="pages/linguagens.php">Linguagens</a></li>
-                <li class="cabecalho-link"><a href="pages/tutoriais.php">Tutoriais</a></li>
 
-                <?php if (isset($_SESSION['id'])) { ?>
+<?php include "header.php"; ?>
 
-                    <li class="cabecalho-link"><a href="pages/Perfil.php">Perfil</a></li>
-
-                <?php } else { ?>
-
-                    <li class="cabecalho-link"><a href="pages/login.php">Login</a></li>
-
-                <?php } ?>
-
-            </ul>
-        </nav>
-    </div>
-</header>
 <main>
     <section class="texto-inicial-container">
         <div class="titulo">
@@ -65,8 +44,10 @@
 </main>
 <footer class="footer-container">
     <ul>
-       <li>Telefone para contato : (50)9-9999-9999</li> 
-       <li>Email para falar conosco: ihriel.mosko@gmail.com</li>
+       <li>Telefone para contato : (50)9-9999-9999</li>
+       <li>Email para falar conosco: ihriel.mosko@gmail.com </li>
+       <li><?php //echo $isIndex; ?></li>
+       <li><?php echo $_SERVER['SCRIPT_NAME']; ?></li>
     </ul>
 </footer>
 </html>
