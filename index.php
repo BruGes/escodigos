@@ -45,7 +45,7 @@ $GLOBALS['isIndex'] = true;?>
 <footer class="footer-container">
     <ul>
        <li>Telefone para contato : (50)9-9999-9999</li>
-       <li>Email para falar conosco: ihriel.mosko@gmail.com </li>
+       <li>Email para falar conosco: escodigos@gmail.com </li>
     </ul>
 </footer>
 </html>
