@@ -107,6 +107,8 @@ if (isset($_POST['deletar'])) {
     $deletar_conta = $conn->prepare('DELETE FROM `usuario` WHERE `usuario`.`id_usuario` = :id');
     $deletar_conta->bindValue(':id',$_SESSION['id']);
     $deletar_conta->execute();
+
+    session_destroy();
     ?><script>
     window.location.replace("login.php");
     //window.location.replace("https://siteteste69.000webhostapp.com/pages/login.php");
